@@ -1,0 +1,83 @@
+{
+  "Leetcode snippet": {
+    "prefix": "cpy",
+    "description": "Log output to console",
+    "body": [
+      "# url: $1",
+      "from typing import List",
+      "",
+      "",
+      "class Solution:",
+      "  def ${3:solve}(self, $4) -> ${5:None}:",
+      "    ${0:pass}",
+      ""
+    ]
+  },
+  "Circular Array": {
+    "prefix": "circ",
+    "description": "Circular Array",
+    "body": [
+      "class CircularArray:",
+      "  def __init__(self, arr: List[int]):",
+      "    self._arr = arr",
+      "  ",
+      "  def __getitem__(self, key: int) -> int:",
+      "    return self._arr[key % (len(self._arr))]",
+      "  ",
+      "  def __setitem__(self, key: int, val: int):",
+      "    self._arr[key % (len(self._arr))] = val",
+      ""
+    ]
+  },
+  "cput": {
+    "prefix": "cput",
+    "description": "Unit Tests for questions in leetcode format",
+    "body": [
+      "class TestCase:",
+      "",
+      "  def __init__(self, inp: None, out: None) -> None:",
+      "    self.inp = inp",
+      "    self.out = out",
+      "",
+      "",
+      "import unittest",
+      "import os",
+      "",
+      "class SolutionTest(unittest.TestCase):",
+      "",
+      "  def testCases(self):",
+      "    cases = [TestCase(None, None)]",
+      "    for case in cases:",
+      "      self.assertEqual(Solution().solve(case.inp), case.out)",
+      "",
+      "",
+      "if os.getenv('KUBECONFIG'):",
+      "  unittest.main()",
+      ""
+    ]
+  },
+  "color": {
+    "prefix": "cpcolor",
+    "description": "",
+    "body": [
+      "class Color:",
+      "",
+      "  def __init__(self, tag: int = -1) -> None:",
+      "    self.tag = tag",
+      "    self.palette = 2",
+      "",
+      "  def do(self, tag: int = 0):",
+      "    self.tag = tag",
+      "",
+      "  def next(self) -> 'Color':",
+      "    return Color((self.tag + 1) % self.palette)",
+      "",
+      "  def equals(self, c: 'Color'):",
+      "    return self.tag == c.tag",
+      "",
+      "  def isDefined(self):",
+      "    return self.tag != -1",
+      ""
+    ]
+  }
+}

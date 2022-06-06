@@ -1,0 +1,249 @@
+{
+  "editor.fontFamily": "Iosevka",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "workbench.tree.indent": 4,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.iconTheme": "vscode-icons",
+  "go.formatTool": "goimports",
+  "debug.console.fontFamily": "Iosevka",
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontFamily": "Iosevka",
+  "editor.fontWeight": "normal",
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "editor.minimap.enabled": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "+",
+      "color": "#EAF622",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  // "vsicons.associations.folderDefault.folder": {
+  //   "icon": "blueFolder",
+  //   "format": "svg"
+  // },
+  // "vsicons.associations.folderDefault.root_folder": {
+  //   "icon": "rootBlueFolder",
+  //   "format": "svg"
+  // },
+  "leetcode.workspaceFolder": "/Users/nascarsayan/Code/goforces/leetcode",
+  "leetcode.defaultLanguage": "golang",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commentDescription": false,
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.showDescription": "In File Comment",
+  "licenser.author": "Sayan Naskar <nascarsayan@gmail.com>",
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName --std=c++17 -lm -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $dir$fileNameWithoutExt",
+  },
+  "C_Cpp.default.cppStandard": "c++17",
+  "rest-client.previewOption": "exchange",
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--skip-string-normalization"
+  ],
+  "editor.formatOnPaste": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "[python]": {
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.accessibilitySupport": "off",
+  "shellformat.flag": "-fn",
+  "shellformat.path": "/Users/nascarsayan/.gvm/pkgsets/go1.14.7/global/bin/shfmt",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "rest-client.previewResponseInUntitledDocument": true,
+  "rest-client.fontFamily": "Iosevka",
+  "editor.wordWrap": "on",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.rulers": [
+    110
+  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terminal.integrated.automationShell.linux": "/usr/bin/zsh",
+  "rest-client.fontSize": 12,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.linux": "/home/snaskar/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.knownKubeconfigs": [
+      "/home/snaskar/.kube/config.d/v134",
+      "/home/snaskar/.kube/config.d/cce2e",
+      "/home/snaskar/.kube/config.d/kind",
+      "/home/snaskar/.kube/config",
+      "/home/snaskar/.kube/config.d/10.184.110.7",
+      "/home/snaskar/.kube/config.d/10.150.220.219"
+    ],
+    "vs-kubernetes.kubeconfig": "/home/snaskar/.kube/config.d/10.150.220.219"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "gitlens.views.searchAndCompare.files.layout": "tree",
+  "editor.inlineHints.fontFamily": "Jetbrains Mono",
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": true,
+  "cSpell.userWords": [
+    "VM's",
+    "azdo",
+    "goimports",
+    "golangci",
+    "luns"
+  ],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "remote.SSH.remotePlatform": {
+    "v184": "windows",
+    "nixbox": "linux",
+    "nixbox2": "linux",
+    "10.184.110.4": "linux",
+    "msbox": "windows",
+    "nix": "linux",
+    "ovm": "linux",
+    "imp": "linux"
+  },
+  "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+  "search.exclude": {
+    "**/*.log": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true,
+    "**/.git": true,
+    "**/.venv": true,
+  },
+  "jupyter.askForKernelRestart": false,
+  "[powershell]": {
+    "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
+  "security.workspace.trust.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.largeFileOptimizations": false,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "jsonc",
+    "latex",
+    "less",
+    "php",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "typescript",
+    "typescriptreact",
+  ],
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Dracula",
+  "files.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.navigationScope": "editorGroup",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "editor.inlineSuggest.enabled": true,
+  "svg.preview.mode": "img",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
